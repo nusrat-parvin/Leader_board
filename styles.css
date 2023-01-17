@@ -1,0 +1,98 @@
+*{
+    /* margin: 0 auto; */
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+/* header design start */
+.header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 36px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-title{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+}
+.logo img{
+    width: 40px;
+    height: 50px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+.nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* header design end */
+
+/* main area design start */
+
+/* top Players section design start */
+.section-1{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+}
+.players-title{
+    color: #562EFF;
+    margin: 30px 30px;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    padding: 80px;
+    border-bottom: 1px solid gray;   
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.players-name{
+    margin-left: 16px;
+}
+.image img{
+    width: 56px;
+    height: 56px;
+}
+/* top Players section design end */
+
+/* top Blogs section design start */
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin: 0 auto;
+    gap:20px;
+}
+.blog-img img{
+    width: 117px;
+    height: 117px;
+}
+.blog-img{
+    display: flex;
+}
+
+
+
+/* main area design end */
