@@ -1,5 +1,5 @@
 *{
-    /* margin: 0 auto; */
+    margin: 0 auto;
     scroll-behavior: smooth;
 }
 body{
@@ -110,11 +110,51 @@ span{
 .blog-title{
     font-weight: 700;
     font-size: 20px;
-    line-height: 34px;
+    line-height: 25px;
 }
 .blog-info{
     margin-left: 16px;
 }
 
-
 /* main area design end */
+
+/* courser area design part start */
+.course-section{
+    width: 870px;
+    border-radius: 7px;
+    margin-top: 21px;
+    margin: 21px auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.all-courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 33px;
+}
+.all-courses img{
+    width: 224px;
+    height: 104px;
+}
+.all-courses > div p{
+    color: red;
+}
+.course-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 19px;
+    margin-bottom: 6px;
+}
+.filled{
+    color: #FFC014;
+}
+.empty{
+    color: #AEAEAE;
+}
+.course-time{
+    display: flex;
+    justify-content: center;
+}
+/* courser area design part end */
