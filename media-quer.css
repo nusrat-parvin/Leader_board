@@ -1,0 +1,44 @@
+/* ----------------------
+       MEDIA QUERY for mobile device
+   ---------------------- */
+
+   @media screen and (max-width:688px) {
+    .top-players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .top-blogs{
+        grid-template-columns: repeat(1, 1fr);   
+    }
+
+    .all-courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .course-section{
+        width: 100%;
+    }
+ }
+
+ /* ----------------------
+       MEDIA QUERY TABLET
+   ---------------------- */
+   @media screen and (min-width:689px) and (max-width:992px) {
+    .top-players{
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .section-1{
+        width: 100%;
+    }
+    .top-blogs{
+        grid-template-columns: repeat(2, 2fr);   
+    }
+
+    .all-courses{
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .course-section{
+        width: 100%;
+    }
+   }
